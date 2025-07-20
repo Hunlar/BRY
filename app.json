@@ -1,0 +1,18 @@
+{
+  "name": "Kızıl Sancak Telegram Botu",
+  "description": "Türkçülük temalı kullanıcı ve grup istatistik botu",
+  "repository": "https://github.com/Hunlar/BRY",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_the_Grey_Wolves.svg/512px-Flag_of_the_Grey_Wolves.svg.png",
+  "keywords": ["telegram", "bot", "kızıl sancak", "turk"],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Telegram Bot Token (örnek: 123456:ABCDEF...)",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
